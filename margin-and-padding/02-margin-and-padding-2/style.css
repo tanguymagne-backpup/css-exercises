@@ -7,21 +7,35 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin-top: 0;
+  /* Because default top margin for h1 is not 0 */
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  /* No need to set margin top to 0 as div have a default of 0 */
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding: 8px 24px;
+  margin: 0 auto;
 }
